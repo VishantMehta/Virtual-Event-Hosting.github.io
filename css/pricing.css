@@ -1,0 +1,65 @@
+/*...Price Section................................................................................*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    font-family: 'Poppins',sans-serif;
+}
+.heading4 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    background: #333;
+}
+
+.heading4 span {
+    color: orange;
+    text-transform: uppercase;
+}
+.price .box-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      gap:1.5rem;
+  }
+  
+  .price .box-container .box{
+      padding:2rem 0;
+      background:#333;
+      border-radius: .5rem;
+      text-align: center;
+  }
+  
+  .price .box-container .box:hover{
+      transform: scale(1.03);
+  }
+  
+  .price .box-container .box .title{
+      background:orange;
+      color:#fff;
+      padding:1.5rem 0;
+      font-size: 2rem;
+  }
+  
+  .price .box-container .box .amount{
+      color:#fff;
+      padding-top: 2rem;
+      font-size: 4rem;
+  }
+  
+  .price .box-container .box ul{
+      list-style-type: none;
+      padding:1rem 0;
+  }
+  
+  .price .box-container .box ul li{
+      font-size: 1.5rem;
+      color:#eee;
+      padding:1rem 0;
+  }
+  
+  .price .box-container .box ul li i{
+      color:var(--main-color);
+      padding-right: .5rem;
+  }
+  
+   

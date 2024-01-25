@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap");
+
+/*...Header Section..........................................................................*/
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7.6rem;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: #222;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 9%;
+}
+
+.heading span {
+  color: red;
+  text-transform: uppercase;
+}
+
+.header .logo {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.header .logo span {
+  color: red;
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.header .navbar a:hover {
+  color: red;
+}      
+
+/*...Welcome Section..............................................................................*/
+
+.heading2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.heading2 span {
+  color: #e46b40;
+  text-transform: uppercase;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+    padding:1rem;
+}
+
+.about .row .image img{ 
+    width: 100%;
+    border-radius: .5rem;
+    border:1rem solid #333;
+}
+
+.about .row .content{
+    flex:1 1 45rem;
+}
+
+.about .row .content h3{
+    font-size: 3.5rem;
+    color: white;
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color:#eee;
+    padding:1rem 0;
+    line-height: 2;
+}   
+
+/* What our web do */
+/*...Service Section............................................................................*/
+
+.heading1 {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.heading1 span {
+  color: #3867d6;
+  text-transform: uppercase;
+}
+.service .box-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+}
+
+.service .box-container .box {
+  border-radius: 2.5rem;
+  background: #333;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.service .box-container .box i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  background: #3867d6;
+  color: #fff;
+}
+
+.service .box-container .box i:hover {
+  background: red;
+}
+.service .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.service .box-container .box p {
+  font-size: 1.4rem;
+  color: #eee;
+  line-height: 1.8;
+}
+
+/* FOOTER */
+.footer{
+    background:#111;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding:1rem 0;
+    color:#fff;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding:1rem 0;
+    color:#eee;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color:var(--main-color);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 1.5rem;
+    color:#fff;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid #222;
+    color:#fff;
+    padding:2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.btn1{
+    border: none;
+    color: red;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}
+/* upcoming events */
+h1{
+  font-size: 3.5em;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.content{
+  color: #fff;
+  letter-spacing: .1em;
+  text-shadow: 0 0 10px rgba(0,0,0,.8);
+}
+.main1{
+  color:aquamarine;
+}
+li{
+  margin-left: 20px;
+
+  font-weight: 500;
+}
+.container{
+  margin-top: 100px;;
+}
+.featured-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.course {
+  width: 25%;
+  margin-bottom: 20px;
+  background-color: #fff ;
+  color-interpolation-filters: 0.5;
+  background-blend-mode: lighten;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.course:hover {
+  transform: translateY(-5px);
+}
+
+.course img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;}
